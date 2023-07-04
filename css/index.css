@@ -28,6 +28,8 @@ body{
     background-position-x:950px;
     background-position-y:150px;
     background-origin: content-box;
+   
+    
     
 
     
@@ -35,6 +37,7 @@ body{
 
 bcackground-image{
     transform: scale(1.1);
+   
 
 }
 
@@ -139,23 +142,23 @@ nav ul li a:hover::after {
 
 }
 
-.about-col-1{
+.about-col-2{
 
     flex-basis: 35%;
 }
 
-.about-col-1 img{
+.about-col-2 img{
     width:100%;
     border-radius: 15px;
     transition: transform .2s
 
 }
-.about-col-1 img:hover{
+.about-col-2 img:hover{
     transform: scale(1.2);
 
 
 }
-.about-col-2{
+.about-col-1{
         flex-shrink: 60%;
      
        
@@ -515,4 +518,21 @@ form .btn2:hover{
         display:flex;
         flex-basis: 100%;
     }
+}
+
+
+.small{
+
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
+    color: #ababab;
+
+
+}
+
+.small:hover{
+
+    color:#ff004f;
+
 }
